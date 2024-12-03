@@ -1,0 +1,290 @@
+/*if you want the name to be at the top press h1{ */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+    /* don't put box-sizing: border-box if you are going to use dropdown*/
+}
+
+header{
+    background-color:white;
+    text-align: center;
+    color: white;
+
+    
+}
+
+.logo{
+    margin: 0;
+    width: 180px;
+    height: auto;
+    
+}
+
+
+h1{
+    
+    font-size: medium;
+    color: black;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+body{
+    background-image: url(Testimonials.png);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-attachment:fixed;
+    position: absolute;
+    margin-left:0px; 
+    margin-right:0px; 
+    color: black;
+    
+    
+    
+    font-family: ;
+}
+/* Style for "Welcome" text */
+.welcome {
+    color: palevioletred; /* Soft romantic red (peachy) */
+    font-weight: bold;
+    font-size: 1.5rem; /* Larger size */
+    text-shadow: 2px 2px 4px rgba(255, 105, 180, 0.5); /* Subtle shadow for depth */
+}
+
+/* Style for "ENCHANTRYST" text */
+.enchantryst {
+    color: black; /* Soft pinkish lavender */
+    font-weight: 700; /* Bold font */
+    font-size: 1.5rem; /* Larger size */
+    font-family:"Great Vibes", cursive;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(255, 105, 180, 0.5); /* Adding a soft shadow effect */
+}
+
+
+
+
+
+.navbar ul{
+   background-color: white;
+   align-items: center;
+   justify-content: space-between;
+   /*to remove bullets*/
+   list-style:none;
+   display: flex;
+
+}
+.navbar li{
+    position: relative;
+    display: inline-block;
+
+
+}
+
+
+.navbar ul li a{
+    color: black;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+
+}
+        
+.navbar a:hover{
+    color:red;
+    transition:all 0.s ;
+
+
+}
+
+.fa.fa-bars{
+    color: white;
+
+}
+
+.hero-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.hero-section.content{
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+.hero-section.content h1{
+    font-family: 70px;
+    color: ;
+
+}
+.hero-section.content p{
+   margin: 10px 0 30px;
+
+}
+
+/* Specific Styles for About Us Page */
+
+/* Background for about us page */
+
+
+
+body.About-us {
+background-image: url('pexels.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+font-family: 'Arial', sans-serif; /* Change font */
+color: #333; /* Default text color */
+margin: 0;
+padding: 20px;
+}
+
+.About-us-heading {
+    text-align: left;
+    color: purple; 
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.About-us-text {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: left;
+    font-weight: bold;
+}
+
+.Testimonials {
+    background-image: url('pexels2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh; /* Ensure it covers the whole screen */
+    font-family: 'Arial', sans-serif; /* Change font */
+    color: black; /* White text color for contrast */
+    margin: 0;
+    padding: 20px;
+    display: flex; /* Enable Flexbox */
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center; /* Vertically center content */
+}
+
+.Testimonials-content {
+    text-align: left; /* Align text to the left */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%; /* Set the width of the content */
+    max-width: 900px; /* Limit the width of the content */
+    margin-left: 20px; /* Add space from the left edge */
+}
+
+.Testimonials-h2 {
+    color: purple; 
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.Testimonials-text {
+    line-height: 1.6;
+    font-size: 1.2rem;
+    margin: 10px auto;
+    text-align: left; /* Ensure text is aligned left */
+    font-weight: bold;
+}
+
+
+body.Features {
+    background-image: url('pexels.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh; /* Ensure it covers the whole screen */
+    background-color: #f0f8ff; /* Light blue background for About Us page */
+    font-family: 'Arial', sans-serif; /* Change font */
+    color: #333; /* Default text color */
+    margin: 0;
+    padding: 20px;
+}
+
+.features-heading {
+    text-align: left;
+    color: purple; 
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.features-text {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: left;
+    font-weight: bold;
+}
+
+body.Contact-us {
+    background-image: url('pexels4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh; /* Ensure it covers the whole screen */
+    background-color: #f0f8ff; /* Light blue background for About Us page */
+    font-family: 'Arial', sans-serif; /* Change font */
+    color: white; /* Default text color */
+    margin: 0;
+    padding: 20px;
+}
+.contact-heading {
+    text-align: left; /* Aligns the heading to the left */
+    color: purple; 
+    text-decoration: underline; /* Underlines the heading */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+body.About-us{
+    background-image: url('background8.png'); /* Image path */
+     background-color: #e6f7ff; /* Fallback color */
+        background-image: url('background8.png'); /* Image path */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 100vh;
+    }
+    
+
+
+.About-us-heading{
+    text-align: left;
+    color: purple; 
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.About-us-text{
+    line-height: 1.6;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+
